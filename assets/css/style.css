@@ -1,7 +1,5 @@
 .wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    text-align: center;
 }
 
 /* Header */
@@ -97,6 +95,11 @@
 .page-btn {
     width: 30px;
 
+}
+
+.active {
+    background-color: #1379e4;
+    color: var(--white-color)
 }
 
 .next-btn {
